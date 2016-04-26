@@ -1,0 +1,11 @@
+<resources>
+   <string name="app_name">OptimizelyDemo</string>
+   <string name="logo_description">logo</string>
+   <string name="main_text">Go Giants!</string>
+   <string name="main_button_text">Click Here!</string>
+   <string name="main_dialog_like_toast">Senpai daisuki!</string>
+   <string name="main_dialog_dislike_toast">Pay attention to me senpai!</string>
+   <string name="main_dialog_message">Do you like me senpai?</string>
+   <string name="main_dialog_like">Sure!</string>
+   <string name="main_dialog_dislike">Ignore...</string>
+</resources>
