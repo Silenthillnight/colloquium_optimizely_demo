@@ -1,11 +1,18 @@
 <resources>
    <string name="app_name">OptimizelyDemo</string>
-   <string name="logo_description">logo</string>
-   <string name="main_text">Go Giants!</string>
-   <string name="main_button_text">Click Here!</string>
-   <string name="main_dialog_like_toast">Senpai daisuki!</string>
-   <string name="main_dialog_dislike_toast">Pay attention to me senpai!</string>
-   <string name="main_dialog_message">Do you like me senpai?</string>
-   <string name="main_dialog_like">Sure!</string>
-   <string name="main_dialog_dislike">Ignore...</string>
+
+   <string name="landing_screen_button_text">SIGN UP</string>
+   <string name="landing_screen_sign_up_text">Have an account? SIGN IN</string>
+
+   <string name="edit_text_hint_choose_password">Choose password</string>
+   <string name="edit_text_hint_confirm_password">Confirm password</string>
+   <string name="edit_text_hint_email">Email</string>
+   <string name="edit_text_hint_password">Password</string>
+
+   <string name="sign_in_button_text">CONTINUE</string>
+
+   <string name="sign_up_button_text">SIGN UP</string>
+   <string name="invalid_email_message">Haha! Did you think I wasn\'t going to validate the fields of a demo app? Sucker! Err I mean you entered an improper email.</string>
+   <string name="invalid_password_message">You have to enter some password now, this isn\'t Target...</string>
+   <string name="invalid_password_confirm_message">Your passwords don\'t match.  Forget much?</string>
 </resources>

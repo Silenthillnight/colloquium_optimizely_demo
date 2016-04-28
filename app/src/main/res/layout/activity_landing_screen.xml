@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@drawable/colloquium_gradient"
+   android:orientation="vertical"
+   tools:context=".LandingScreenActivity">
+
+   <ImageView
+      android:id="@+id/landing_screen_logo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="100dp"
+      android:contentDescription="logo"
+      android:src="@drawable/graphic_coll_logo"/>
+
+   <ImageView
+      android:id="@+id/landing_screen_wordmark"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/landing_screen_logo"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="33dp"
+      android:contentDescription="wordmark"
+      android:src="@drawable/c_o_l_l_o_u_i_u_m_wordmark"/>
+
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_alignParentBottom="true">
+
+      <Button
+         android:id="@+id/landing_sign_up_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/landing_screen_button_background"
+         android:layout_marginLeft="38dp"
+         android:layout_marginRight="38dp"
+         android:padding="12dp"
+         android:textSize="19sp"
+         android:textColor="@color/some_red_color"
+         android:text="@string/landing_screen_button_text"/>
+
+      <TextView
+         android:id="@+id/landing_sign_in_text"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:paddingTop="33dp"
+         android:paddingBottom="49dp"
+         android:textAlignment="center"
+         android:textSize="19sp"
+         android:textColor="@color/white"
+         android:text="@string/landing_screen_sign_up_text"/>
+
+   </LinearLayout>
+
+</RelativeLayout>

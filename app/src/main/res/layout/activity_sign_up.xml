@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context=".SignUpActivity">
+
+   <ImageView
+      android:id="@+id/sign_up_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="62dp"
+      android:src="@drawable/c_r_e_a_t_e_y_o_u_r_l_o_g_i_n" />
+
+   <EditText
+      android:id="@+id/sign_up_edit_text_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/sign_up_title"
+      android:layout_marginTop="90dp"
+      android:layout_marginLeft="32dp"
+      android:layout_marginRight="32dp"
+      android:imeOptions="actionNext"
+      android:inputType="textEmailAddress"
+      android:hint="@string/edit_text_hint_email" />
+
+   <EditText
+      android:id="@+id/sign_up_edit_text_password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/sign_up_edit_text_email"
+      android:layout_marginTop="44dp"
+      android:layout_marginLeft="32dp"
+      android:layout_marginRight="32dp"
+      android:imeOptions="actionNext"
+      android:inputType="textPassword"
+      android:hint="@string/edit_text_hint_choose_password" />
+
+   <EditText
+      android:id="@+id/sign_up_edit_text_password_confirm"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/sign_up_edit_text_password"
+      android:layout_marginTop="44dp"
+      android:layout_marginLeft="32dp"
+      android:layout_marginRight="32dp"
+      android:imeOptions="actionDone"
+      android:inputType="textPassword"
+      android:hint="@string/edit_text_hint_confirm_password" />
+
+   <Button
+      android:id="@+id/sign_up_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="24dp"
+      android:layout_marginLeft="36dp"
+      android:layout_marginRight="36dp"
+      android:background="@color/some_red_color"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      android:text="@string/sign_up_button_text" />
+</RelativeLayout>
