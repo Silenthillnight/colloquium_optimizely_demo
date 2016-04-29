@@ -1,4 +1,4 @@
-package com.piecakepie.optimizelydemo;
+package com.locationlabs.optimizelydemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

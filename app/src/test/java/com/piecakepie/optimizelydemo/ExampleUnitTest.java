@@ -1,4 +1,4 @@
-package com.piecakepie.optimizelydemo;
+package com.locationlabs.optimizelydemo;
 
 import org.junit.Test;
 
